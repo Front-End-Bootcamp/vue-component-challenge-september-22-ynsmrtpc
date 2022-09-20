@@ -1,9 +1,9 @@
 <script setup>
-import Students from "./components/Main.vue";
+import Main from "./components/Main.vue";
 import axios from "axios";
 import { ref, onMounted } from "vue";
 
-const filteredDatas = ref();
+const filteredData = ref();
 
 async function getStudents() {
 	const students = await axios
@@ -37,10 +37,10 @@ function filterByAsistants(data) {
 onMounted(async () => {
 	const data = await getStudents();
 	getGroupNames(data);
-	filteredDatas.value = filterByAsistants(data);
+	filteredData.value = filterByAsistants(data);
 });
 </script>
 
 <template>
-	<Students :datas="filteredDatas" />
+	<Main :data="filteredData" />
 </template>

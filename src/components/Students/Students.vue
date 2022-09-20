@@ -4,7 +4,7 @@ const props = defineProps(["students"]);
 
 <template>
 	<ul class="students" v-for="student in students" :key="student.id">
-		<li class="students__list" :class="'text_' + student.group.toLowerCase()">
+		<li class="students__list" :class="student.group.toLowerCase() + '__text'">
 			{{ student.name }}
 		</li>
 	</ul>

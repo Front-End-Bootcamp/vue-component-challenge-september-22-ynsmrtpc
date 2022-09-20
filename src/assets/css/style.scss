@@ -9,9 +9,17 @@
 }
 
 .line {
-	background: linear-gradient(to right, #fafafa, rgb(138, 43, 226));
+	background: linear-gradient(
+		to left,
+		#20b2aa,
+		#cd5c5c,
+		#9acd32,
+		#da70d6,
+		#4682b4
+	);
 	height: 1.5px;
 	border: none;
+	border-radius: 3px;
 }
 
 .container {
@@ -45,31 +53,31 @@
 
 .lightseagreen {
 	background-color: lightseagreen;
+	&__text {
+		color: lightseagreen;
+	}
 }
 .indianred {
 	background-color: indianred;
+	&__text {
+		color: indianred;
+	}
 }
 .yellowgreen {
 	background-color: yellowgreen;
+	&__text {
+		color: yellowgreen;
+	}
 }
 .orchid {
 	background-color: orchid;
+	&__text {
+		color: orchid;
+	}
 }
 .steelblue {
 	background-color: steelblue;
-}
-.text_lightseagreen {
-	color: lightseagreen;
-}
-.text_indianred {
-	color: indianred;
-}
-.text_yellowgreen {
-	color: yellowgreen;
-}
-.text_orchid {
-	color: orchid;
-}
-.text_steelblue {
-	color: steelblue;
+	&__text {
+		color: steelblue;
+	}
 }
