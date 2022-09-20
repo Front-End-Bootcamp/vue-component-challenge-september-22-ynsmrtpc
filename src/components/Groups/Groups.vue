@@ -3,7 +3,7 @@ const props = defineProps(["data"]);
 </script>
 
 <template>
-	<h3 class="grouplist__group">
+	<h2 class="grouplist__group" :class="'text_' + data.group.toLowerCase()">
 		{{ data.group }}
-	</h3>
+	</h2>
 </template>
