@@ -1,5 +1,5 @@
 <script setup>
-import Students from "./components/Students.vue";
+import Students from "./components/Main.vue";
 import axios from "axios";
 import { ref, onMounted } from "vue";
 
