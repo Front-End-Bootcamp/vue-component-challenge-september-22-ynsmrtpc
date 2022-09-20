@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+.line {
+	background: linear-gradient(to right, #fafafa, rgb(138, 43, 226));
+	height: 1.5px;
+	border: none;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+	margin: 25px;
+}
+
+.grouplist {
+	padding: 5px 12px;
+	&__group {
+		text-align: center;
+		padding: 12px;
+	}
+}
+.students {
+	padding: 0.3rem 0 0 1.5rem;
+	&__list {
+		letter-spacing: 1.5px;
+	}
+}
+
+.asistant {
+	padding: 5px;
+	margin: 12px;
+	text-align: center;
+	color: #fafafa;
+	border-radius: 0.4rem;
+}
+
+.lightseagreen {
+	background-color: lightseagreen;
+}
+.indianred {
+	background-color: indianred;
+}
+.yellowgreen {
+	background-color: yellowgreen;
+}
+.orchid {
+	background-color: orchid;
+}
+.steelblue {
+	background-color: steelblue;
+}
